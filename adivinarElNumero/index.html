@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="robots" content="noindex, follow">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina el Número</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="../cssPrincipal/download.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="menu">
+        <img  onclick="location.href = '../index.html' " src="../cssPrincipal/588a6507d06f6719692a2d15.png" class="imgMenu" alt="Menu">
+    </nav>
+    <div class="todo">
+        <h1 class="tittle">Juego adivina el número</h1>
+        <p class="text">Hemos seleccionado un número aleatorio entre 1 y 100. Fíjate si lo puedes adivinar en 10 turnos o menos. Vamos a decirte si tu número es más alto o más bajo.</p>
+        <hr class="linea">
+        <p class="advN">Adivina el número:</p>
+        <input placeholder="Escribe tu respuesta..." id="respuesta" class="respuesta" type="number">
+        <button id="enviar" class="enviar">Enviar respusta</button>
+        <div id="terminar"></div>
+    </div>
+    <script src="javaScript/main.js"></script>
+</body>
+</html>
