@@ -9,6 +9,7 @@ const reset = document.createElement("button");
 reset.textContent = "Volver a jugar";
 reset.setAttribute("id", "reset");
 let input = document.getElementById("respuesta");
+const home = document.getElementById("home").addEventListener("click", () => location.href = "..");
 
 // Reiniciar la pagina
 

@@ -1,6 +1,7 @@
 * {
     font-size: 37px;
     font-family: 'Odibee Sans', cursive;
+    user-select: none;
 }
 body {
    background-color: #ddf;

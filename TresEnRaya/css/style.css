@@ -1,0 +1,80 @@
+* {
+    font-size: 37px;
+    font-family: 'Odibee Sans', cursive;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+}
+body {
+   background-color: #ddf;
+   margin: 0px 0px;
+}
+.imgMenu {
+    width: 40px;
+    background-color: #eee;
+    margin-left: 10px;
+    transition: all;
+    transition-duration: .3s;
+    border-radius: 3px;
+}
+.imgMenu:hover {
+    background-color: #ccc;
+}
+.imgMenu:active {
+    background-color: #aaa;
+}
+#menu {
+    background-color: #eee;
+    padding: 8px;
+    padding-bottom: 3px;
+}
+.game {
+    padding: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 3px;
+    margin: auto;
+}
+.number {
+    border: #aaa 2px solid;
+    background-color: #ffd;
+}
+.number:hover {
+    background-color: #ddbc;
+}
+.rules {
+    background-color: #ffd;
+    padding: 10px 20px;
+}
+h1 {
+    font-size: 50px;
+}
+p {
+    font-size: 30px;
+}
+b {
+    font-size: 30px;
+}
+.result-container {
+    padding: 10px;
+}
+.resultado {
+    display: inline;
+    font-size: 40px;
+}
+button {
+    margin: 10px;
+    width: 180px;
+    height: 60px;
+    background-color: #ffd;
+    border: 1px solid #222;
+}
+button:hover {
+    background-color: #ccc;
+}
+button:active {
+    background-color: #aaa;
+}
